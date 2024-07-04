@@ -4,6 +4,7 @@ import Graph as g
 
 my_graph = Graph()
 my_graph.create_graph()
+print("Dataset: ")
 my_graph.print_vertices()
 print()
 
