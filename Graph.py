@@ -75,6 +75,9 @@ class Graph:
         return visited
 
 
+    def traverse_DFS_2(self):
+        pass
+
     def traverse_BFS(self, value):
 
         if self.contain_vertex(value):
