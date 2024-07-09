@@ -13,7 +13,7 @@ class Graph:
         self.cities = []
 
 
-
+    # Based on Graph.py from Task 1, complete this class.
 
 # ©Zairul Mazwan©
 

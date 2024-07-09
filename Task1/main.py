@@ -1,6 +1,8 @@
 from Task1.Graph import Graph
 from Task1 import Graph as g
 
+# This main program is complete. Do not need to progress. Run this program to see the outputs.
+
 my_graph = Graph()
 my_graph.create_graph()
 print("Dataset: ")
