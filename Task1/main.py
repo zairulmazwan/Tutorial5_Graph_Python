@@ -1,6 +1,5 @@
-from Graph import Graph
-import Graph as g
-
+from Task1.Graph import Graph
+from Task1 import Graph as g
 
 my_graph = Graph()
 my_graph.create_graph()
