@@ -60,43 +60,17 @@ class Graph:
 
 
     def traverse_DFS_1(self, value, visited):
-
-        if self.contain_vertex(value):
-            v = self.get_vertex(value)
-            if v not in visited:
-                visited.append(v)
-
-            for i in v.edges:
-                if i not in visited:
-                    visited.append(i)
-                    self.traverse_DFS_1(i.value, visited)
-        else:
-            print("There is not vertex in the graph")
-        return visited
+        # Write your code here
+        pass
 
 
     def traverse_DFS_2(self):
+        # Write your code here
         pass
 
     def traverse_BFS(self, value):
-
-        if self.contain_vertex(value):
-
-            start_vertex = self.get_vertex(value)
-            queue = []
-            queue.append(start_vertex)
-            visited = []
-
-            while queue:
-                vertex = queue.pop(0)
-                if vertex not in visited:
-                    print(vertex.value, end=" ")
-                    visited.append(vertex)
-                    edges = self.get_edges(vertex)
-                    for e in edges:
-                        queue.append(e)
-        else:
-            print("There is no vertex in the graph")
+        # Write your code here
+        pass
 
 
 
